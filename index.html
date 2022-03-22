@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Lex Digital Technologies - Think Digitaly</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+<style>
+    .card-deck> .card{
+        border-radius: 15px;
+    }
+    .card-deck>.card:hover{
+        background-color: #3B5998;
+        color: #fff;
+        transition: 0.6s ease all;
+    }
+    .col>.card-cover{
+        border-radius: 15px;
+    }
+    
+    /* Slider */
+    .slide img{
+        width: 160px;
+        margin:30px;
+    }
+    .nav-item> a:hover{
+        color: #fff !important;
+    }
+    .faq-section .mb-0 > a {
+  display: block;
+  position: relative;
+}
+
+.faq-section .mb-0 > a:after {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+
+.faq-section .mb-0 > a[aria-expanded="true"]:after {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+.object {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(10); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(10); }
+    100% { transform: translateY(-10px); }
+}
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--<div class="topnav">-->
+<!--    <div class="left">-->
+<!--     <p>We Provide Best Digital Marketing Services</p>-->
+<!--    </div>-->
+<!--    <div class="right">-->
+<!--        <p><a href="#">Contact Us</a><a href="#">About Us</a></p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.php" style="text-transform: uppercase;"><img src="https://lexdigital.in/wp-content/uploads/2022/02/lex-digital-black-logo.png" width="180px" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile_nav" aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="mobile_nav">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-md-right">
+        </ul>
+        <ul class="navbar-nav navbar-light">
+            <li class="nav-item"><a class="nav-link" href="#" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='blue'">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='blue'">About Us</a></li>
+           
+            <!--========-->
+            <li class="nav-item dropdown megamenu-li dmenu">
+                <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Marketing Services</a>
+                <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Ecommerce</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Magento Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Magento 2 Migration</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Odoo ERP</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> Mobile Commerce</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-magento"></i> CRM for Commerce</a>
+                        </div>
+                       <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>LAMP Technology</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-php"></i> PHP Website Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-circle"></i> Phalcon Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-laravel"></i> Laravel Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-wordpress-simple"></i> WordPress Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-php"></i> Symfony Development</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Mobile</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-apple"></i> iPhone App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-android"></i> Android App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Phone Gap App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-tablet-alt"></i> Hybrid App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Ionic Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-tablet-alt"></i> React Native Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Xamarin App Development</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6>Node.js & MongoDB</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cubes"></i> Full Stack Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cube"></i> MEAN Stack</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-angular"></i> AngularJS</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-node-js"></i> Node.JS Development</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-leaf fa-rotate-90"></i> MongoDB Development</a>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Microsoft Technology</h6>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> Microsoft App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> MS Desktop App Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> SharePoint Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> ASP.NET Development</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> CMS Development</a>
+                        </div>
+                       <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Cloud Services</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cloud"></i> DevOps</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-amazon"></i> Amazon Web Services</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-windows"></i> Azure Cloud Service</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-google"></i> Google App Engine Services</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 border-right mb-4">
+                            <h6>Enterprise Services</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Augmented Reality</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> CRM</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-buromobelexperte"></i> Enterprise Mobility Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-th-large"></i> Blockchain Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-briefcase"></i> Business Intelligence</a>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 mb-4">
+                            <h6>Digital Marketing</h6>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Digital Marketing</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> PPC Management Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> E-commerce SEO Services</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Conversion Rate Optimization</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--=========-->
+            <li class="nav-item"><a class="nav-link" href="<?php echo siteURL;?>portfolio.php">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="<?php echo siteURL;?>blog.php">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="<?php echo siteURL;?>contact-us.php">Contact us</a></li>
+   
+        </ul>
+        </div>
+</div>
+</nav>
+
+
+
+<div style="background: linear-gradient(75deg,#65258a 10%,#e80566)!important;">
+<div class="container col-xxl-8 px-4 py-5" >
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6 ">
+        <img src="assets/img/hero-img.png" class="d-block mx-lg-auto img-fluid object" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3" style="font-weight: 700; color: #fff"><span style="text-transform: uppercase; text-shadow: 2px 2px #ff0000;">We Provide Experts in</span> <br><span class="type"></span></h1>
+        
+        <p class="lead" style="color: #fff; padding: 0;">We are the leading digital marketing agency providing search engine optimization, web designing, social media marketing, paid advertisement, online reputation management, graphic designing, and more.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-outline-light btn-lg px-4 me-md-2">Learn More</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--about section start-->
+<div class="container">
+<div class="row">
+  <div class="col-sm-7">
+    <div class="card" style="border:none;">
+      <div class="card-body">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Who We Are</h1>
+        <p class="lead" style="padding:0;">We are the leading digital marketing agency providing search engine optimization, web designing, social media marketing, paid advertisement, online reputation management, graphic designing, and content writing services.</p>
+        
+        <!-- collapse start  -->
+       
+            <div class="flex flex-column mb-5 mt-4 faq-section">
+              <div class="row">
+                <div class="col-md-12">
+                  <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="heading-1">
+                        <h5 class="mb-0">
+                          <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                              What is FXCopier?
+                                            </a>
+                        </h5>
+                      </div>
+                      <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
+                        <div class="card-body">
+                          FXCOPIER is the worlds most reliable remote trade copier. Its allow you to copy trades almost instantly between hundreds of MT4 accounts.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="heading-2">
+                        <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                              How to get this trade copier?
+                                            </a>
+                        </h5>
+                      </div>
+                      <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+                        <div class="card-body">
+                          After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="heading-3">
+                        <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                              How's Your Product Delivery?
+                                            </a>
+                        </h5>
+                      </div>
+                      <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+                        <div class="card-body">
+                          After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+        <!-- collapse end  -->
+
+    
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-5">
+    <div class="card" style="border:none;">
+      <div class="card-body">
+        <img src="https://i.pinimg.com/originals/00/6b/27/006b2787627b0b67bb91d9716d6e5058.gif"/>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--about section end-->
+
+
+
+<!--service section start -->
+<section style="padding: 40px 0 40px 0; background: #f4f4f4;">
+     <div class="container">
+
+        <div class="section-title text-center">
+          <h1>Our Featured Services</h1>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <br/>
+        <div class="card-deck text-center">
+              <div class="card">
+             
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            
+              </div>
+              <div class="card">
+             
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              
+              </div>
+              <div class="card">
+               
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+             
+              </div>
+            </div>
+            
+            <br/>
+            <div class="card-deck text-center">
+              <div class="card">
+               
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            
+              </div>
+              <div class="card">
+            
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            
+              </div>
+              <div class="card">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+            
+              </div>
+            </div>
+
+
+      </div>
+</section>
+
+<!--blog section start-->
+ <div class="container px-4 py-5" id="custom-cards">
+        <div class="section-title text-center">
+          <h1>Our Latest Blog</h1>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h1 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h1>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Earth</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>3d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h1 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h1>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>India</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h1 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h1>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="https://getbootstrap.com/docs/5.0/examples/features/unsplash-photo-3.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--blog section end-->
+
+<!--client logo slider start-->
+<div style="background: #f4f4f4; padding-top: 40px">
+<div class="container">
+<div class="section-title text-center">
+          <h1>Our Clients</h1>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <br/>
+<div class="row">
+
+    <section class="logo-carousel slider" data-arrows="true" style="display:flex;">
+      <div class="slide"><img src="assets/img/Microsoft_logo.png"></div>
+      <div class="slide"><img src="https://codingcush.com/uploads/logo/logo_61b79976c34f5.png"></div>
+      <div class="slide"><img src="https://1.bp.blogspot.com/-JWbtTwRvaR4/YPplN-2t6fI/AAAAAAAAGac/hgQmKIe2s00SW-_muJHhV1OQdDB083KkQCLcBGAsYHQ/s390/lexdigital-blog-logo.png"></div>
+      <div class="slide"><img src="https://lexacademy.in/images/lex-digital-computer-center.png"></div>
+      <div class="slide"><img src="https://vegcorb.com/home/img/logo.png"></div>
+      
+    </section>
+  </div>
+</div>
+</div>
+<!--client logo slider end-->
+<!--footer start-->
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i style="color: #3B5998;" class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Noida, Sector - 15, (IND) - 201301</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i style="color: #3B5998;" class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+91-XXXXXXXXXXX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i style="color: #3B5998;" class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>codingcush@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.php"><img src="https://lexdigital.in/wp-content/uploads/2022/02/lex-digital-white-logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button style="background: #3B5998; border: 1px solid #3B5998;"><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022, All Right Reserved <a style="color: #3B5998;" href="https://lexdigital.in/">Lexdigital Technologies</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--footer end-->
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<script  src="assets/js/script.js"></script>
+<script src="assets/js/typed.js"></script>
+<script type="text/javascript">
+    var typed = new Typed('.type', {
+      strings: ['Digital Marketing', 'Social Media Marketing','UX/UI Designer','Web Development'],
+        typeSpeed: 50,
+        smartBackspace: true,
+        backDelay: 2000,
+        backSpeed: 20,
+        loop: true
+    });
+</script>
+
+</body>
+</html>

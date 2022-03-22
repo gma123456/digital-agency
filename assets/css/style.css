@@ -1,0 +1,189 @@
+.topnav{
+height: 30px;
+width: 100%;
+background-color: #2196F3;
+color: white;
+display: flex;
+}
+.topnav p{
+padding: 0;
+margin: 0;
+}
+.left{
+padding-left: 40px;
+}
+.topnav > .right p> a{
+text-decoration: none;
+color: white;
+padding-left: 30px;
+}
+.navbar{
+     background: #fff;
+     padding-top: 0;
+     padding-bottom: 0;
+     box-shadow: 1px 3px 4px 0 #adadad33;
+}
+ .navbar-light .navbar-brand {
+     color: #2196F3;
+}
+ .navbar-light .navbar-nav .nav-link {
+     color: #3B5998 !important;
+}
+ .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+     color: #fff;
+}
+ .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+     color: #fff !important;
+}
+ .navbar-light .navbar-nav .nav-link{
+     padding-top: 22px;
+     padding-bottom: 22px;
+     transition: 0.3s;
+     padding-left: 24px;
+     padding-right: 24px;
+     font-size: 14px;
+}
+ .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+     background: #3B5998 ;
+     transition: 0.3s;
+     color: #fff !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3B5998 !important;
+}
+.sm-menu{
+    border-radius: 0px;
+    border: 0px;
+    top: 97%;
+    box-shadow: rgba(173, 173, 173, 0.2) 1px 3px 4px 0px;
+}
+.dropdown-item {
+    color: #3c3c3c;
+        font-size: 14px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2196F3;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-tog{
+    color: #3B5998;
+}
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
+.megamenu h6{
+    margin-left: 21px;
+}
+.megamenu i{
+    width: 20px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+}
+
+.carousel-caption{padding-bottom:80px;}
+
+h2{font-size: 60px;}
+p{padding:10px}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity:0.6;
+}
+
+
+
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+
